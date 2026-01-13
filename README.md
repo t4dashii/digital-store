@@ -12,8 +12,8 @@ Este é o projeto front-end para o gtech 3.0, criado com base a documentação d
 ## 👤 Autores
 
 - [@Ana Patricia](https://www.github.com/AnaPatriciagit)
-- [@Thierry](github.com/Th1erryx)
-- [@Pedro](https://github.com/t4dashii)
+- [@Thierry](https://www.github.com/Th1erryx)
+- [@Pedro](https://www.github.com/t4dashii)
 
 
 ## 🛠 Tecnologias utilizadas 
