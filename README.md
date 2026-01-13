@@ -21,7 +21,7 @@ Este é o projeto front-end para o gtech 3.0, criado com base a documentação d
  - React
  - Javascript
  - Typescript
-
+ 
 
 ## 📌 Funcionalidades
 - [x] Adicionar tarefas via modal
