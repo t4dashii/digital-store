@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # E-commerce Project  🖥️ | Digital College
 
@@ -34,3 +35,6 @@ Este é o projeto front-end para o gtech 3.0, criado com base a documentação d
 - 🎨 **style.css**: Responsável pelo design responsivo e efeitos visuais.
 - ⚡ **script.js**: Gerencia as requisições GET, POST e DELETE.
 - 🗄️ **db.json**: Armazena os dados das tarefas de forma persistente.
+=======
+# digital-store
+>>>>>>> f0f598a (Adicionado os Header e o footer, mudei o css puro para o tailwind ps: precisa ser feito o home com as rotas futuramente.)
