@@ -1,0 +1,111 @@
+.featured-collections {
+  max-width: 1440px;
+  margin: 0 auto 64px;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.collections-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  color: #474747;
+  margin-bottom: 24px;
+}
+
+/* GRID DESKTOP */
+.collections-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.collection-btn {
+  width: 104px;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.collection-icon {
+  width: 48px;
+  height: 48px;
+  color: #8f8f8f;
+  transition: color 0.3s ease;
+}
+
+.collection-btn span {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #474747;
+}
+
+.collection-btn.active .collection-icon {
+  color: #c92071;
+}
+
+.collection-btn.active span {
+  color: #c92071;
+  font-weight: 700;
+}
+
+/* ROTATE DO TÊNIS */
+.rotate-sneaker {
+  transform: rotate(-30deg) scalex(-1);
+}
+
+/* MOBILE – CARROSSEL */
+@media (max-width: 768px) {
+  .featured-collections {
+    padding: 0 16px;
+    margin-bottom: 40px;
+  }
+
+  .collections-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .collections-grid {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+
+  .collections-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .collection-btn {
+    flex-shrink: 0;
+    width: 80px;
+    height: 100px;
+  }
+
+  .collection-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .collection-btn span {
+    font-size: 12px;
+  }
+}
+
+/* TABLET */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .featured-collections {
+    padding: 0 40px;
+  }
+}

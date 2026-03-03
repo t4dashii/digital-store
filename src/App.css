@@ -1,0 +1,53 @@
+/* ===== WRAPPER GERAL ===== */
+.products-wrapper {
+  width: 100%;
+  padding: 40px 100px;
+}
+
+/* ===== TÍTULO ===== */
+.products-title {
+  max-width: 1440px;
+  margin: 0 auto 24px auto;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  color: #474747;
+
+  white-space: nowrap; /* nunca quebra */
+  text-align: left;
+}
+
+/* ===== CONTAINER DOS CARDS (CENTRO DA PÁGINA) ===== */
+.products-container {
+  max-width: 1240px; /* padrão figma e-commerce */
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+  .products-wrapper {
+    padding: 32px 48px;
+  }
+
+  .products-container {
+    max-width: 100%;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .products-wrapper {
+    padding: 24px 16px;
+  }
+
+  .products-title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}

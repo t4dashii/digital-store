@@ -1,0 +1,46 @@
+/* Wrapper geral */
+.products-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* GRID */
+.products-grid {
+  display: grid;
+  width: 100%;
+  max-width: 1440px;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 24px;
+}
+
+/* =========================
+   DESKTOP / PC (FIGMA)
+========================= */
+@media (min-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 292px);
+  }
+}
+
+/* =========================
+   NOTEBOOK / TABLET GRANDE
+========================= */
+@media (max-width: 1023px) and (min-width: 769px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 292px);
+    gap: 24px;
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 163px);
+    gap: 12px;
+    padding: 0 12px;
+  }
+}
