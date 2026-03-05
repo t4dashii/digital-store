@@ -1,18 +1,13 @@
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header'
+import "./App.css";
+import AppRouter from "./AppRouter";
+import { CartProvider } from "./Context/CartContext";
 
 function App() {
   return (
-    <div className="flex min-h-screen flex-col">
-      <main className="flex-1">
-        <Header />
-      </main>
-
-      <Footer />
-    </div>
+    <CartProvider>
+      <AppRouter />
+    </CartProvider>
   );
 }
 
-
-
-export default App
+export default App;

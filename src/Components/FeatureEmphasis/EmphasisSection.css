@@ -1,0 +1,54 @@
+.emphasis-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 100px;
+}
+
+.emphasis-title-section {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #474747;
+  margin-bottom: 32px;
+}
+
+.emphasis-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  flex-wrap: nowrap;
+}
+
+/* Tela média (entre tablet e desktop) */
+@media (max-width: 1100px) {
+  .emphasis-row {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .emphasis-card {
+    width: calc(50% - 10px);
+    max-width: 350px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .emphasis-section {
+    padding: 40px 16px;
+  }
+
+  .emphasis-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .emphasis-card {
+    width: 100%;
+    max-width: 340px;
+    height: 200px;
+  }
+}

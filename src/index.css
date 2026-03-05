@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+/* Highlight customizado */
+::selection {
+  background: #C92071;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #C92071;
+  color: #fff;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
